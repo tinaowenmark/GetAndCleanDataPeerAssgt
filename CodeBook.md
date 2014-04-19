@@ -23,13 +23,13 @@ The enclosing folder contained a file mapping label codes to the activities subj
 
 I downloaded and read in the six files in the test and train folders, as well as the two mapping files.
 
-##1. Naming the activities
+###1. Naming the activities
 I merged the activity data with the activity mapping file ("activity.labels.txt") to create dataframes for test and train identifying the name of the activity for each observation.
 
-##2. Adding column names
+###2. Adding column names
 I added a column name of "Subject" to the subject dataframe and then assigned the data in the variable mapping file (features.txt) to as column names for the main test and train dataframes.
 
-##3. Selecting only the mean and standard deviation measures
+###3. Selecting only the mean and standard deviation measures
 
 
 For the purposes of this analysis, the variables were defined as...
