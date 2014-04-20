@@ -48,7 +48,7 @@ I used the melt function (from the reshape2 package) to create a very tall, narr
 The summary table (output of this exercise) has 81 variables. Acknowledgment: Descriptions of the 3rd through 81st variables are taken from the features_info file included in the zip file downloaded for this assignment. (1)
 
 ###Activity
-six simple activities (standing, sitting, laying[sic], walking, walking up stairs, and walking down stairs)
+Text string with six levels: standing, sitting, laying[sic], walking, walking up stairs, and walking down stairs.
 
 ###Subject
 An integer between 1 and 30 identifying the volunteer performing the activity at each observation. Not all volunteers seem to have performed each of the six activities.
@@ -66,22 +66,22 @@ From the informative text included with the dataset:
 > '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 > tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+> tGravityAcc-XYZ
+> tBodyAccJerk-XYZ
+> tBodyGyro-XYZ
+> tBodyGyroJerk-XYZ
+> tBodyAccMag
+> tGravityAccMag
+> tBodyAccJerkMag
+> tBodyGyroMag
+> tBodyGyroJerkMag
+> fBodyAcc-XYZ
+> fBodyAccJerk-XYZ
+> fBodyGyro-XYZ
+> fBodyAccMag
+> fBodyAccJerkMag
+> fBodyGyroMag
+> fBodyGyroJerkMag
 
 The set of variables that were estimated, and then selected for this analysis, from these signals are: 
 
