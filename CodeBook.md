@@ -1,7 +1,7 @@
 Code Book
 ========================================================
 
-This code book describes the variables, the data, and any transformations or work that I performed to clean up the smartphone accelerometer data used for the Peer Assessment assignment for the Johns Hopkins *Getting and Cleaning Data* course on Coursera.
+This code book describes the variables, the data, and any transformations or work that I performed to clean up the smartphone accelerometer and gyroscope data used for the Peer Assessment assignment for the Johns Hopkins *Getting and Cleaning Data* course on Coursera.
 
 The assignment was to download a zip file from the UC Irvine machine learning data archives, containing data from experiments with 30 volunteers who wore Samsung smartphones while performing six simple activities (standing, sitting, laying[sic], walking, walking up stairs, and walking down stairs). The sensor signals from the phones were preprocessed as described in [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), and the resulting data split into training and test data sets and zipped up along with several descriptive and metadata files. 
 
@@ -54,6 +54,8 @@ Text string with six levels: standing, sitting, laying[sic], walking, walking up
 An integer between 1 and 30 identifying the volunteer performing the activity at each observation. Not all volunteers seem to have performed each of the six activities.
 
 ###Features (variables 3-81)
+Numeric value between -1 and 1 representing the accelerometer and gyroscope values captured from the smartphone's sensors.
+
 From the informative text included with the dataset: 
 
 > The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
