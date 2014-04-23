@@ -22,4 +22,4 @@ In this repository is an R script called [run_analysis.R](https://github.com/tin
 
 The independent tidy data set referenced above is included in this repo, in a file called [summary.txt](https://github.com/tinaowenmark/GetAndCleanDataPeerAssgt/blob/master/summary.txt).
 
-Additionally, I've created a code book, called [CodeBook.md](https://github.com/tinaowenmark/GetAndCleanDataPeerAssgt/blob/master/CodeBook.md), describing the variables, the data, and the transformations and work that I performed to clean up the data.
+Additionally, I've created a code book, called [CodeBook.md](https://github.com/tinaowenmark/GetAndCleanDataPeerAssgt/blob/master/CodeBook.md), describing the variables, the data, and the transformations and work I performed to clean up the data.
