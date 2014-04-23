@@ -1,7 +1,7 @@
 Code Book
 ========================================================
 
-This code book describes the variables, the data, and any transformations or work that I performed to clean up the smartphone accelerometer and gyroscope data used for the Peer Assessment assignment for the Johns Hopkins *Getting and Cleaning Data* course on Coursera.
+This code book describes the variables, the data, and the transformations and other work I performed to clean up the smartphone accelerometer and gyroscope data used for the Peer Assessment assignment for the Johns Hopkins *Getting and Cleaning Data* course on Coursera.
 
 The assignment was to download a zip file from the UC Irvine machine learning data archives, containing data from experiments with 30 volunteers who wore Samsung smartphones while performing six simple activities (standing, sitting, laying[sic], walking, walking up stairs, and walking down stairs). The sensor signals from the phones were preprocessed as described in [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), and the resulting data split into training and test data sets and zipped up along with several descriptive and metadata files. 
 
